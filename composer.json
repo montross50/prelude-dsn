@@ -1,0 +1,26 @@
+{
+    "name": "prelude/prelude-dsn",
+    "type": "library",
+    "description": "Dsn, pain-less adapter for PDO configuration",
+    "keywords": ["PDO", "dsn", "database", "config"],
+
+    "homepage": "https://github.com/eridal/prelude-dsn",
+    "license": "MIT",
+
+    "authors": [{
+        "name": "Martin Scotta",
+        "email": "martinscotta@gmail.com",
+        "homepage": "http://www.martinscotta.com/"
+    }],
+
+    "require": {
+        "php": ">= 5.3",
+        "prelude/prelude-database": "*"
+    },
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {"Prelude\\Dsn\\": "src/"}
+    }
+}
